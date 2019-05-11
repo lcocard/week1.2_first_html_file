@@ -1,0 +1,193 @@
+<!-- my-first-html.1.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title>Castle</title>
+    <style>
+        /* Table style */
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        thead th:nth-child(1) {
+            width: 20%;
+        }
+
+        thead th:nth-child(2) {
+            width: 40%;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ff33cc;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #e495e4;
+        }
+
+        tbody tr {
+            background-image: url(noise.png);
+        }
+
+        table {
+            background-color: #e495e4;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br>
+
+    <!-- H1 tag title -->
+
+    <h1>Castle</h1>
+
+    <!-- Embedded image -->
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Castle_Neuschwanstein.jpg/440px-Castle_Neuschwanstein.jpg"
+        alt="The Band"></a>
+
+    <p>A <strong>Castle</strong> is a type of fortified structure built during the Middle Ages by predominantly the
+        nobility or royalty and by military orders. Scholars debate the scope of the word castle, but usually consider
+        it to be the private fortified residence of a lord or noble. This is distinct from a palace, which is not
+        fortified; from a fortress, which was not always a residence for royalty or nobility; and from a fortified
+        settlement, which was a public defence – though there are many similarities among these types of construction.
+        Usage of the term has varied over time and has been applied to structures as diverse as hill forts and country
+        houses. Over the approximately 900 years that castles were built, they took on a great many forms with many
+        different features, although some, such as curtain walls and arrowslits, were commonplace.</p>
+
+    <p>European-style castles originated in the 9th and 10th centuries, after the fall of the Carolingian Empire
+        resulted in its territory being divided among individual lords and princes. These nobles built castles to
+        control the area immediately surrounding them and the castles were both offensive and defensive structures; they
+        provided a base from which raids could be launched as well as offered protection from enemies. Although their
+        military origins are often emphasised in castle studies, the structures also served as centres of administration
+        and symbols of power. Urban castles were used to control the local populace and important travel routes, and
+        rural castles were often situated near features that were integral to life in the community, such as mills,
+        fertile land, or a water source.</p>
+
+    <!-- One link that is target=“_blank” so that it opens a new tab when clicked on. -->
+
+    <p>Wikipedia: <a href="https://en.wikipedia.org/wiki/Castle"
+            target="_blank">https://en.wikipedia.org/wiki/Castle</a></p>
+
+    <!-- Make the second link bold. -->
+
+    <p>Wikipedia: <a href="https://en.wikipedia.org/wiki/Neuschwanstein_Castle" target=><strong>Neuschwanstein
+                Castle</strong></a></p>
+
+    <!-- Placeholder link that goes nowhere -->
+
+    <a href="#">link that goes nowhere</a>
+
+    <br>
+
+    <!-- Create an ordered list of steps to make a sandwich. -->
+
+    <h1>List of steps to make a sandwich</h1>
+
+    <ol>
+        <li>Buy the ingredients</li>
+        <li>Slice the bread</li>
+        <li>Spread the butter on the bread</li>
+        <li>Add the ingredients on the top of one slice</li>
+        <li>Add the top slice of bread</li>
+        <li>Bon apetit!</li>
+
+    </ol>
+
+    <!-- Create an unordered list of 5 bands/musicians you like. -->
+
+    <h1>Musicians I like</h1>
+    <ul>
+        <li>Eric Clapton</li>
+        <li>Mick Jagger</li>
+        <li>James Taylor</li>
+        <li>Neil Young</li>
+        <li>John Fogerty</li>
+    </ul>
+
+    <!-- Create a table with 2 columns (animal class and animal name) and 4 rows of animals. -->
+
+    <h1>Animal list</h1>
+
+    <table style="width:50%">
+
+        <thead>
+            <tr>
+                <th>Animal class</th>
+                <td><strong>Animal Name</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Mammals</th>
+                <td>
+                    <font color="green">Elephant</font>
+                </td>
+            </tr>
+            <tr>
+                <th>Fish</th>
+                <td>
+                    <font color="blue">Salmon</font>
+                </td>
+            </tr>
+            <tr>
+                <th>Birds</th>
+                <td>
+                    <font color="orange">Eagle</font>
+                </td>
+            </tr>
+            <tr>
+                <th>Reptiles</th>
+                <td>
+                    <font color="red">Aligator</font>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- Use an alternate way of separating links without line breaks. -->
+
+    <h1>Alternate way of separating links without line breaks</h1>
+    <div style="white-space: pre">
+        lorem ipsum
+
+
+        lorem i psum
+
+
+        lorem ipsum
+    </div>
+
+    <!-- Embed a Youtube video of your favorite band/musician. -->
+
+    <h1>Favorite Songs - Queen - Love of My Life</h1>
+    <h3>Wembley, '86.</h3>
+    <iframe width="420" height="315"
+src="https://www.youtube.com/embed/v3xwCkhmies">
+</iframe>
+ 
+</body>
+
+</html>
